@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wool",
+  "ingredients": [
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "jroleitems:white_tile_block"
+    }
+  ],
+  "result": {
+    "item": "jroleitems:green_tile_block"
+  }
+}
