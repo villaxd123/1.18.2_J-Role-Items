@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "jroleitems:white_tile_block",
+    "jroleitems:orange_tile_block",
+    "jroleitems:magenta_tile_block",
+    "jroleitems:lightblue_tile_block",
+    "jroleitems:yellow_tile_block",
+    "jroleitems:lime_tile_block",
+    "jroleitems:pink_tile_block",
+    "jroleitems:gray_tile_block",
+    "jroleitems:lightgray_tile_block",
+    "jroleitems:cyan_tile_block",
+    "jroleitems:purple_tile_block",
+    "jroleitems:blue_tile_block",
+    "jroleitems:brown_tile_block",
+    "jroleitems:green_tile_block",
+    "jroleitems:red_tile_block",
+    "jroleitems:black_tile_block"
+  ]
+}
