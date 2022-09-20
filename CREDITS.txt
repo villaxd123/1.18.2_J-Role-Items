@@ -3,3 +3,5 @@ Almost every model was made by Jorge Villafuerte.
 The coins inspired from OrdinaryCoins (https://www.curseforge.com/minecraft/mc-mods/ordinary-coins)
 
 If you want to use the textures I made, please, I would appreciate it if you mention my name in the credits.
+
+Also, I want to give a huge tanks to Kaupenjoe for the Detailed Guide.
