@@ -2,5 +2,24 @@
   "item.jroleitems.copper_coin": "Moneda de Cobre",
   "item.jroleitems.silver_coin": "Moneda de Plata",
   "item.jroleitems.gold_coin": "Moneda de Oro",
-  "item.jroleitems.diamond_coin": "Moneda de Diamante"
+  "item.jroleitems.diamond_coin": "Moneda de Diamante",
+
+  "block.jroleitems.white_tile_block": "Bloque de Azulejos Blancos",
+  "block.jroleitems.orange_tile_block": "Bloque de Azulejos Naranjas",
+  "block.jroleitems.magenta_tile_block": "Bloque de Azulejos Magentas",
+  "block.jroleitems.lightblue_tile_block": "Bloque de Azulejos Celestes",
+  "block.jroleitems.yellow_tile_block": "Bloque de Azulejos Amarillos",
+  "block.jroleitems.lime_tile_block": "Bloque de Azulejos Verdes Lima",
+  "block.jroleitems.pink_tile_block": "Bloque de Azulejos Rosados",
+  "block.jroleitems.gray_tile_block": "Bloque de Azulejos Grices",
+  "block.jroleitems.lightgray_tile_block": "Bloque de Azulejos Grices Claros",
+  "block.jroleitems.cyan_tile_block": "Bloque de Azulejos Cianes",
+  "block.jroleitems.purple_tile_block": "Bloque de Azulejos Morados",
+  "block.jroleitems.blue_tile_block": "Bloque de Azulejos Azules",
+  "block.jroleitems.brown_tile_block": "Bloque de Azulejos Marrones",
+  "block.jroleitems.green_tile_block": "Bloque de Azulejos Verdes",
+  "block.jroleitems.red_tile_block": "Bloque de Azulejos Rojos",
+  "block.jroleitems.black_tile_block": "Bloque de Azulejos Negros",
+
+  "itemGroup.jroleitemstab": "Jorge Role Items"
 }

@@ -2,5 +2,24 @@
   "item.jroleitems.copper_coin": "Copper Coin",
   "item.jroleitems.silver_coin": "Silver Coin",
   "item.jroleitems.gold_coin": "Gold Coin",
-  "item.jroleitems.diamond_coin": "Diamond Coin"
+  "item.jroleitems.diamond_coin": "Diamond Coin",
+
+  "block.jroleitems.white_tile_block": "White Tile Block",
+  "block.jroleitems.orange_tile_block": "Orange Tile Block",
+  "block.jroleitems.magenta_tile_block": "Magenta Tile Block",
+  "block.jroleitems.lightblue_tile_block": "Light Blue Tile Block",
+  "block.jroleitems.yellow_tile_block": "Yellow Tile Block",
+  "block.jroleitems.lime_tile_block": "Lime Tile Block",
+  "block.jroleitems.pink_tile_block": "Pink Tile Block",
+  "block.jroleitems.gray_tile_block": "Gray Tile Block",
+  "block.jroleitems.lightgray_tile_block": "Light Gray Tile Block",
+  "block.jroleitems.cyan_tile_block": "Cyan Tile Block",
+  "block.jroleitems.purple_tile_block": "Purple Tile Block",
+  "block.jroleitems.blue_tile_block": "Blue Tile Block",
+  "block.jroleitems.brown_tile_block": "Brown Tile Block",
+  "block.jroleitems.green_tile_block": "Green Tile Block",
+  "block.jroleitems.red_tile_block": "Red Tile Block",
+  "block.jroleitems.black_tile_block": "Black Tile Block",
+
+  "itemGroup.jroleitemstab": "Jorge Role Items"
 }
