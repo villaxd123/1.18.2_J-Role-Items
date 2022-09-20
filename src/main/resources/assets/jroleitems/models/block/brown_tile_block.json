@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "jroleitems:block/brown_tile_block"
+  }
+}
