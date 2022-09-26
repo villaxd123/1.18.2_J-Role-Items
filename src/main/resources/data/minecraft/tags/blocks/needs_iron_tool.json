@@ -16,6 +16,10 @@
     "jroleitems:brown_tile_block",
     "jroleitems:green_tile_block",
     "jroleitems:red_tile_block",
-    "jroleitems:black_tile_block"
+    "jroleitems:black_tile_block",
+    "jroleitems:purpumetrine_block",
+    "jroleitems:raw_purpumetrine_block",
+    "jroleitems:purpumetrine_ore",
+    "jroleitems:deepslate_purpumetrine_ore"
   ]
 }
