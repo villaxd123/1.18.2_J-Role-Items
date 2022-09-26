@@ -30,6 +30,9 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_PURPUMETRINE = ITEMS.register("raw_purpumetrine",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB)));
 
+    public static final RegistryObject<Item> PURPUMETRINE_CHARGED = ITEMS.register("purpumetrine_charged",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
