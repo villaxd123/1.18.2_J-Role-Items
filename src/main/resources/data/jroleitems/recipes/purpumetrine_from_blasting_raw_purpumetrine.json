@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:raw_purpumetrine"
+  },
+  "result": "minecraft:purpumetrine",
+  "experience": 5.0,
+  "cookingtime": 100
+}

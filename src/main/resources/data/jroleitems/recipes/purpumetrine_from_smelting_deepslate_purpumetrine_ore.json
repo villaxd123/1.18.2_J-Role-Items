@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:deepslate_purpumetrine_ore"
+  },
+  "result": "minecraft:purpumetrine",
+  "experience": 5.0,
+  "cookingtime": 200
+}

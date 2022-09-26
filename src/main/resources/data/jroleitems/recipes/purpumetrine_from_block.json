@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jroleitems:purpumetrine_block"
+    }
+  ],
+  "result": {
+    "item": "jroleitems:purpumetrine",
+    "count": 9
+  }
+}
