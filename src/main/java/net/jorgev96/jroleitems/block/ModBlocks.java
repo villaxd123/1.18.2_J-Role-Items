@@ -84,6 +84,22 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2f).requiresCorrectToolForDrops()), ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
 
+    public static final RegistryObject<Block> PURPUMETRINE_BLOCK = registerblock("purpumetrine_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> RAW_PURPUMETRINE_BLOCK = registerblock("raw_purpumetrine_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> PURPUMETRINE_ORE = registerblock("purpumetrine_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> DEEPSLATE_PURPUMETRINE_ORE = registerblock("deepslate_purpumetrine_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
     private static <T extends Block> RegistryObject<T> registerblock(String name,
                                                                      Supplier<T> block,
                                                                      CreativeModeTab tab) {
