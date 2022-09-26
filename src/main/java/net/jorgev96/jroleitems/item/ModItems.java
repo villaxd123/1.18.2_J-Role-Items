@@ -1,6 +1,7 @@
 package net.jorgev96.jroleitems.item;
 
 import net.jorgev96.jroleitems.JRoleItems;
+import net.jorgev96.jroleitems.item.custom.RollDiceItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -32,6 +33,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> PURPUMETRINE_CHARGED = ITEMS.register("purpumetrine_charged",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB)));
+
+    public static final RegistryObject<Item> DICE = ITEMS.register("dice",
+            () -> new RollDiceItem(new Item.Properties().tab(ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB)
+                    .stacksTo(1)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
