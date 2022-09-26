@@ -3,6 +3,8 @@
   "item.jroleitems.silver_coin": "Silver Coin",
   "item.jroleitems.gold_coin": "Gold Coin",
   "item.jroleitems.diamond_coin": "Diamond Coin",
+  "item.jroleitems.purpumetrine": "Purpumetrine",
+  "item.jroleitems.raw_purpumetrine": "Raw Purpumetrine",
 
   "block.jroleitems.white_tile_block": "White Tile Block",
   "block.jroleitems.orange_tile_block": "Orange Tile Block",
@@ -20,6 +22,10 @@
   "block.jroleitems.green_tile_block": "Green Tile Block",
   "block.jroleitems.red_tile_block": "Red Tile Block",
   "block.jroleitems.black_tile_block": "Black Tile Block",
+  "block.jroleitems.purpumetrine_block": "Purpumetrine Block",
+  "block.jroleitems.raw_purpumetrine_block": "Raw Purpumetrine Block",
+  "block.jroleitems.purpumetrine_ore": "Purpumetrine Ore",
+  "block.jroleitems.deepslate_purpumetrine_ore": "Deepslate Purpumetrine Ore",
 
   "itemGroup.jroleitemstab": "Jorge Role Items"
 }

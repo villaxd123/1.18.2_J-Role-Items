@@ -3,6 +3,8 @@
   "item.jroleitems.silver_coin": "Moneda de Plata",
   "item.jroleitems.gold_coin": "Moneda de Oro",
   "item.jroleitems.diamond_coin": "Moneda de Diamante",
+  "item.jroleitems.purpumetrine": "Purpumetrina",
+  "item.jroleitems.raw_purpumetrine": "Purpumetrina en Bruto",
 
   "block.jroleitems.white_tile_block": "Bloque de Azulejos Blancos",
   "block.jroleitems.orange_tile_block": "Bloque de Azulejos Naranjas",
@@ -20,6 +22,10 @@
   "block.jroleitems.green_tile_block": "Bloque de Azulejos Verdes",
   "block.jroleitems.red_tile_block": "Bloque de Azulejos Rojos",
   "block.jroleitems.black_tile_block": "Bloque de Azulejos Negros",
+  "block.jroleitems.purpumetrine_block": "Bloque de Purpumetrina",
+  "block.jroleitems.raw_purpumetrine_block": "Bloque de Purpumetrina en Bruto",
+  "block.jroleitems.purpumetrine_ore": "Mena de Purpumetrina",
+  "block.jroleitems.deepslate_purpumetrine_ore": "Mena de Purpumetrina de Pizarra Profunda",
 
   "itemGroup.jroleitemstab": "Jorge Role Items"
 }
