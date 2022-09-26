@@ -6,6 +6,7 @@
   "item.jroleitems.purpumetrine": "Purpumetrina",
   "item.jroleitems.raw_purpumetrine": "Purpumetrina en Bruto",
   "item.jroleitems.purpumetrine_charged": "Purpumetrina Cargada",
+  "item.jroleitems.dice": "Dado",
 
   "block.jroleitems.white_tile_block": "Bloque de Azulejos Blancos",
   "block.jroleitems.orange_tile_block": "Bloque de Azulejos Naranjas",
@@ -28,5 +29,12 @@
   "block.jroleitems.purpumetrine_ore": "Mena de Purpumetrina",
   "block.jroleitems.deepslate_purpumetrine_ore": "Mena de Purpumetrina de Pizarra Profunda",
 
-  "itemGroup.jroleitemstab": "Jorge Role Items"
+  "itemGroup.jroleitemstab": "Jorge Role Items",
+
+  "item.jroleitems.dice.output1": "Tu número es 1, mala suerte... ",
+  "item.jroleitems.dice.output2": "Tu número es 2, no es del todo mal.",
+  "item.jroleitems.dice.output3": "Tu número es 3, meh.",
+  "item.jroleitems.dice.output4": "Tu número es 4, bien.",
+  "item.jroleitems.dice.output5": "Tu número es 5, casi el seis.",
+  "item.jroleitems.dice.output6": "Tu número es 6, tienes buena suerte."
 }

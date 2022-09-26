@@ -6,6 +6,7 @@
   "item.jroleitems.purpumetrine": "Purpumetrine",
   "item.jroleitems.raw_purpumetrine": "Raw Purpumetrine",
   "item.jroleitems.purpumetrine_charged": "Charged Purpumetrine",
+  "item.jroleitems.dice": "Dice",
 
   "block.jroleitems.white_tile_block": "White Tile Block",
   "block.jroleitems.orange_tile_block": "Orange Tile Block",
@@ -28,5 +29,12 @@
   "block.jroleitems.purpumetrine_ore": "Purpumetrine Ore",
   "block.jroleitems.deepslate_purpumetrine_ore": "Deepslate Purpumetrine Ore",
 
-  "itemGroup.jroleitemstab": "Jorge Role Items"
+  "itemGroup.jroleitemstab": "Jorge Role Items",
+
+  "item.jroleitems.dice.output1": "Your Number is 1, bad luck...",
+  "item.jroleitems.dice.output2": "Your Number is 2, isn't bad at all.",
+  "item.jroleitems.dice.output3": "Your Number is 3, meh.",
+  "item.jroleitems.dice.output4": "Your Number is 4, nice.",
+  "item.jroleitems.dice.output5": "Your Number is 5, almost the six.",
+  "item.jroleitems.dice.output6": "Your Number is 6, you had a good luck."
 }
