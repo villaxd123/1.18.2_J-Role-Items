@@ -6,6 +6,7 @@
   "item.jroleitems.purpumetrine": "Purpumetrina",
   "item.jroleitems.raw_purpumetrine": "Purpumetrina en Bruto",
   "item.jroleitems.purpumetrine_charged": "Purpumetrina Cargada",
+  "item.jroleitems.pizza_a": "Pizza Pepperoni",
   "item.jroleitems.dice": "Dado",
 
   "block.jroleitems.white_tile_block": "Bloque de Azulejos Blancos",
@@ -36,5 +37,8 @@
   "item.jroleitems.dice.output3": "Tu número es 3, meh.",
   "item.jroleitems.dice.output4": "Tu número es 4, bien.",
   "item.jroleitems.dice.output5": "Tu número es 5, casi el seis.",
-  "item.jroleitems.dice.output6": "Tu número es 6, tienes buena suerte."
+  "item.jroleitems.dice.output6": "Tu número es 6, tienes buena suerte.",
+
+  "tooltip.jroleitems.pizza_a.tooltip.shift": "Esta pizza te da un incremento de §evelocidad de movimiento§r durante §e60§r segundos.",
+  "tooltip.jroleitems.pizza_a.tooltip": "Presiona §9SHIFT§r para más información."
 }

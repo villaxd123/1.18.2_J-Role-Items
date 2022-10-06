@@ -6,6 +6,7 @@
   "item.jroleitems.purpumetrine": "Purpumetrine",
   "item.jroleitems.raw_purpumetrine": "Raw Purpumetrine",
   "item.jroleitems.purpumetrine_charged": "Charged Purpumetrine",
+  "item.jroleitems.pizza_a": "Pepperoni Pizza",
   "item.jroleitems.dice": "Dice",
 
   "block.jroleitems.white_tile_block": "White Tile Block",
@@ -36,5 +37,8 @@
   "item.jroleitems.dice.output3": "Your Number is 3, meh.",
   "item.jroleitems.dice.output4": "Your Number is 4, nice.",
   "item.jroleitems.dice.output5": "Your Number is 5, almost the six.",
-  "item.jroleitems.dice.output6": "Your Number is 6, you had a good luck."
+  "item.jroleitems.dice.output6": "Your Number is 6, you had a good luck.",
+
+  "tooltip.jroleitems.pizza_a.tooltip.shift": "This pizza gives increases your §emovement speed§r for §e60§r seconds.",
+  "tooltip.jroleitems.pizza_a.tooltip": "Press §9SHIFT§r for more information."
 }
