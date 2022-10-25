@@ -3,12 +3,18 @@ package net.jorgev96.jroleitems.block;
 import net.jorgev96.jroleitems.JRoleItems;
 import net.jorgev96.jroleitems.item.ModCreativeModeTab;
 import net.jorgev96.jroleitems.item.ModItems;
+import net.jorgev96.jroleitems.block.custom.ModFlammableRotatedPillarBlock;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -102,6 +108,108 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_PURPUMETRINE_ORE = registerBlock("deepslate_purpumetrine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_LOG_BLUE = registerBlock("ancestral_log_blue",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)),
+            ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_WOOD_BLUE = registerBlock("ancestral_wood_blue",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)),
+            ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> STRIPPED_ANCESTRAL_LOG_BLUE = registerBlock("stripped_ancestral_log_blue",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)),
+            ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> STRIPPED_ANCESTRAL_WOOD_BLUE = registerBlock("stripped_ancestral_wood_blue",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)),
+            ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_LOG_ORANGE = registerBlock("ancestral_log_orange",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)),
+            ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_WOOD_ORANGE = registerBlock("ancestral_wood_orange",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)),
+            ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> STRIPPED_ANCESTRAL_LOG_ORANGE = registerBlock("stripped_ancestral_log_orange",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)),
+            ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> STRIPPED_ANCESTRAL_WOOD_ORANGE = registerBlock("stripped_ancestral_wood_orange",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)),
+            ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_LOG_PURPLE = registerBlock("ancestral_log_purple",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)),
+            ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_WOOD_PURPLE = registerBlock("ancestral_wood_purple",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)),
+            ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> STRIPPED_ANCESTRAL_LOG_PURPLE = registerBlock("stripped_ancestral_log_purple",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)),
+            ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> STRIPPED_ANCESTRAL_WOOD_PURPLE = registerBlock("stripped_ancestral_wood_purple",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)),
+            ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_PLANKS_BLUE = registerBlock("ancestral_planks_blue",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 5;
+                }
+            }, ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_PLANKS_ORANGE = registerBlock("ancestral_planks_orange",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 5;
+                }
+            }, ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_PLANKS_PURPLE = registerBlock("ancestral_planks_purple",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 5;
+                }
+            }, ModCreativeModeTab.JORGE_ROLE_ITEMS_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name,
                                                                      Supplier<T> block,
