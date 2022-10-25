@@ -6,7 +6,7 @@
       "y": 90
     },
     "axis=y": {
-      "model": "jroleitems:block/ancestral_orange_blue"
+      "model": "jroleitems:block/ancestral_log_orange"
     },
     "axis=z": {
       "model": "jroleitems:block/ancestral_log_orange_horizontal",
