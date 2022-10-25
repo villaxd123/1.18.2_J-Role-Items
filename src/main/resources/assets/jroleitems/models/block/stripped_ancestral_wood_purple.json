@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jroleitems:block/stripped_ancestral_log_purple",
+    "side": "jroleitems:block/stripped_ancestral_log_purple"
+  }
+}

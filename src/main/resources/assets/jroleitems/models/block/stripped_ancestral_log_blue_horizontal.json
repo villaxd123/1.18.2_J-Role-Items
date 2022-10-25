@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "jroleitems:block/stripped_ancestral_log_top_blue",
+    "side": "jroleitems:block/stripped_ancestral_log_blue"
+  }
+}

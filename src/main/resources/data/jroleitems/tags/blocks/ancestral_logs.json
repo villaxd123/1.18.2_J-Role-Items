@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "jroleitems:ancestral_log_blue",
+    "jroleitems:ancestral_wood_blue",
+    "jroleitems:stripped_ancestral_log_blue",
+    "jroleitems:stripped_ancestral_wood_blue",
+    "jroleitems:ancestral_log_orange",
+    "jroleitems:ancestral_wood_orange",
+    "jroleitems:stripped_ancestral_log_orange",
+    "jroleitems:stripped_ancestral_wood_orange",
+    "jroleitems:ancestral_log_purple",
+    "jroleitems:ancestral_wood_purple",
+    "jroleitems:stripped_ancestral_log_purple",
+    "jroleitems:stripped_ancestral_wood_purple"
+
+  ]
+}
