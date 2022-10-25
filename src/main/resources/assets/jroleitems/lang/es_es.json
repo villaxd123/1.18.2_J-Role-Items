@@ -46,6 +46,7 @@
   "block.jroleitems.stripped_ancestral_wood_purple": "Madera Ancestral Morada sin Corteza",
 
   "itemGroup.jroleitemstab": "Jorge Role Items",
+  "itemGroup.jroleblockstab": "Jorge Role Blocks",
 
   "item.jroleitems.dice.output1": "Tu número es 1, mala suerte... ",
   "item.jroleitems.dice.output2": "Tu número es 2, no es del todo mal.",
