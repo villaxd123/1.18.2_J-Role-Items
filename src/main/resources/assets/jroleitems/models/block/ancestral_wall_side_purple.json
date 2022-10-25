@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "jroleitems:block/ancestral_planks_purple"
+  }
+}

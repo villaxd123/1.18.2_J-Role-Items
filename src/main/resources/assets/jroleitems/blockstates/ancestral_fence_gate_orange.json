@@ -1,0 +1,80 @@
+{
+  "variants": {
+    "facing=east,in_wall=false,open=false": {
+      "uvlock": true,
+      "y": 270,
+      "model": "jroleitems:block/ancestral_fence_gate_orange"
+    },
+    "facing=east,in_wall=false,open=true": {
+      "uvlock": true,
+      "y": 270,
+      "model": "jroleitems:block/ancestral_fence_gate_open_orange"
+    },
+    "facing=east,in_wall=true,open=false": {
+      "uvlock": true,
+      "y": 270,
+      "model": "jroleitems:block/ancestral_fence_gate_wall_orange"
+    },
+    "facing=east,in_wall=true,open=true": {
+      "uvlock": true,
+      "y": 270,
+      "model": "jroleitems:block/ancestral_fence_gate_wall_open_orange"
+    },
+    "facing=north,in_wall=false,open=false": {
+      "uvlock": true,
+      "y": 180,
+      "model": "jroleitems:block/ancestral_fence_gate_orange"
+    },
+    "facing=north,in_wall=false,open=true": {
+      "uvlock": true,
+      "y": 180,
+      "model": "jroleitems:block/ancestral_fence_gate_open_orange"
+    },
+    "facing=north,in_wall=true,open=false": {
+      "uvlock": true,
+      "y": 180,
+      "model": "jroleitems:block/ancestral_fence_gate_wall_orange"
+    },
+    "facing=north,in_wall=true,open=true": {
+      "uvlock": true,
+      "y": 180,
+      "model": "jroleitems:block/ancestral_fence_gate_wall_open_orange"
+    },
+    "facing=south,in_wall=false,open=false": {
+      "uvlock": true,
+      "model": "jroleitems:block/ancestral_fence_gate_orange"
+    },
+    "facing=south,in_wall=false,open=true": {
+      "uvlock": true,
+      "model": "jroleitems:block/ancestral_fence_gate_open_orange"
+    },
+    "facing=south,in_wall=true,open=false": {
+      "uvlock": true,
+      "model": "jroleitems:block/ancestral_fence_gate_wall_orange"
+    },
+    "facing=south,in_wall=true,open=true": {
+      "uvlock": true,
+      "model": "jroleitems:block/ancestral_fence_gate_wall_open_orange"
+    },
+    "facing=west,in_wall=false,open=false": {
+      "uvlock": true,
+      "y": 90,
+      "model": "jroleitems:block/ancestral_fence_gate_orange"
+    },
+    "facing=west,in_wall=false,open=true": {
+      "uvlock": true,
+      "y": 90,
+      "model": "jroleitems:block/ancestral_fence_gate_open_orange"
+    },
+    "facing=west,in_wall=true,open=false": {
+      "uvlock": true,
+      "y": 90,
+      "model": "jroleitems:block/ancestral_fence_gate_wall_orange"
+    },
+    "facing=west,in_wall=true,open=true": {
+      "uvlock": true,
+      "y": 90,
+      "model": "jroleitems:block/ancestral_fence_gate_wall_open_orange"
+    }
+  }
+}

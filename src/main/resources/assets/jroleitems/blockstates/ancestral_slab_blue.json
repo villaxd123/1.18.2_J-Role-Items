@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jroleitems:block/ancestral_slab_blue"
+    },
+    "type=double": {
+      "model": "jroleitems:block/ancestral_planks_blue"
+    },
+    "type=top": {
+      "model": "jroleitems:block/ancestral_slab_top_blue"
+    }
+  }
+}

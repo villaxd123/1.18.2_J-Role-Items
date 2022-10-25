@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "jroleitems:block/ancestral_planks_purple"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "jroleitems:block/ancestral_planks_blue"
+  }
+}
