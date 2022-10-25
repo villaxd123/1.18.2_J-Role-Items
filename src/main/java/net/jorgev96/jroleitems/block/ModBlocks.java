@@ -11,8 +11,7 @@ import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
@@ -210,6 +209,81 @@ public class ModBlocks {
                     return 5;
                 }
             }, ModCreativeModeTab.JORGE_ROLE_BLOCKS_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_STAIRS_BLUE = registerBlock("ancestral_stairs_blue",
+            () -> new StairBlock(() -> ModBlocks.ANCESTRAL_PLANKS_BLUE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.WOOD).strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_SLAB_BLUE = registerBlock("ancestral_slab_blue",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_FENCE_BLUE = registerBlock("ancestral_fence_blue",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_FENCE_GATE_BLUE = registerBlock("ancestral_fence_gate_blue",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_WALL_BLUE = registerBlock("ancestral_wall_blue",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_STAIRS_ORANGE = registerBlock("ancestral_stairs_orange",
+            () -> new StairBlock(() -> ModBlocks.ANCESTRAL_PLANKS_ORANGE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.WOOD).strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_SLAB_ORANGE = registerBlock("ancestral_slab_orange",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_FENCE_ORANGE = registerBlock("ancestral_fence_orange",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_FENCE_GATE_ORANGE = registerBlock("ancestral_fence_gate_orange",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_WALL_ORANGE = registerBlock("ancestral_wall_orange",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_STAIRS_PURPLE = registerBlock("ancestral_stairs_purple",
+            () -> new StairBlock(() -> ModBlocks.ANCESTRAL_PLANKS_PURPLE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.WOOD).strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_SLAB_PURPLE = registerBlock("ancestral_slab_purple",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_FENCE_PURPLE = registerBlock("ancestral_fence_purple",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_FENCE_GATE_PURPLE = registerBlock("ancestral_fence_gate_purple",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_WALL_PURPLE = registerBlock("ancestral_wall_purple",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name,
                                                                      Supplier<T> block,
