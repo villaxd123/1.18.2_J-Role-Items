@@ -16,4 +16,9 @@ public class ModCreativeModeTab {
         @Override
         public ItemStack makeIcon() { return new ItemStack(ModBlocks.PURPUMETRINE_BLOCK.get()); }
     };
+
+    public static final CreativeModeTab JORGE_ROLE_DECORATIVE_TAB = new CreativeModeTab("jroledecorativetab") {
+        @Override
+        public ItemStack makeIcon() { return new ItemStack(ModBlocks.ANCESTRAL_STAIRS_BLUE.get()); }
+    };
 }
