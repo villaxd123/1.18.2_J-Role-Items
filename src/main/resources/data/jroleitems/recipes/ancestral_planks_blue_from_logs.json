@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "jroleitems:ancestral_log_blue"
+    }
+  ],
+  "result": {
+    "item": "jroleitems:ancestral_planks_blue",
+    "count": 4
+  }
+}

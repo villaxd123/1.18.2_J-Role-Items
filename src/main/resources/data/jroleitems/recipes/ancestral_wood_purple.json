@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": {
+      "item": "jroleitems:ancestral_log_purple"
+    }
+  },
+  "result": {
+    "item": "jroleitems:ancestral_wood_purple",
+    "count": 3
+  }
+}
