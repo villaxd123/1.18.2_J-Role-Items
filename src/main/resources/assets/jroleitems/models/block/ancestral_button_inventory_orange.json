@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "jroleitems:block/ancestral_planks_orange"
+  }
+}
