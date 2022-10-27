@@ -1,0 +1,69 @@
+{
+  "variants": {
+    "facing=east,half=bottom,open=false": {
+      "model": "jroleitems:block/ancestral_trapdoor_bottom_blue",
+      "y": 90
+    },
+    "facing=east,half=bottom,open=true": {
+      "model": "jroleitems:block/ancestral_trapdoor_open_blue",
+      "y": 90
+    },
+    "facing=east,half=top,open=false": {
+      "model": "jroleitems:block/ancestral_trapdoor_top_blue",
+      "y": 90
+    },
+    "facing=east,half=top,open=true": {
+      "model": "jroleitems:block/ancestral_trapdoor_open_blue",
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=bottom,open=false": {
+      "model": "jroleitems:block/ancestral_trapdoor_bottom_blue"
+    },
+    "facing=north,half=bottom,open=true": {
+      "model": "jroleitems:block/ancestral_trapdoor_open_blue"
+    },
+    "facing=north,half=top,open=false": {
+      "model": "jroleitems:block/ancestral_trapdoor_top_blue"
+    },
+    "facing=north,half=top,open=true": {
+      "model": "jroleitems:block/ancestral_trapdoor_open_blue",
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=bottom,open=false": {
+      "model": "jroleitems:block/ancestral_trapdoor_bottom_blue",
+      "y": 180
+    },
+    "facing=south,half=bottom,open=true": {
+      "model": "jroleitems:block/ancestral_trapdoor_open_blue",
+      "y": 180
+    },
+    "facing=south,half=top,open=false": {
+      "model": "jroleitems:block/ancestral_trapdoor_top_blue",
+      "y": 180
+    },
+    "facing=south,half=top,open=true": {
+      "model": "jroleitems:block/ancestral_trapdoor_open_blue",
+      "x": 180,
+      "y": 0
+    },
+    "facing=west,half=bottom,open=false": {
+      "model": "jroleitems:block/ancestral_trapdoor_bottom_blue",
+      "y": 270
+    },
+    "facing=west,half=bottom,open=true": {
+      "model": "jroleitems:block/ancestral_trapdoor_open_blue",
+      "y": 270
+    },
+    "facing=west,half=top,open=false": {
+      "model": "jroleitems:block/ancestral_trapdoor_top_blue",
+      "y": 270
+    },
+    "facing=west,half=top,open=true": {
+      "model": "jroleitems:block/ancestral_trapdoor_open_blue",
+      "x": 180,
+      "y": 90
+    }
+  }
+}
