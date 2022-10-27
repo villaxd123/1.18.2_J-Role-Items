@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "jroleitems:block/ancestral_planks_blue"
+  }
+}
