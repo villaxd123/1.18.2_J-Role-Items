@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "jroleitems:block/ancestral_pressure_plate_up_blue" },
+    "powered=true": { "model": "jroleitems:block/ancestral_pressure_plate_down_blue" }
+  }
+}

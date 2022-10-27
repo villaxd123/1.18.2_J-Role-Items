@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "jroleitems:block/ancestral_door_top_purple",
+    "bottom": "jroleitems:block/ancestral_door_bottom_purple"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=east,half=lower,hinge=left,open=false": {
+      "model": "jroleitems:block/ancestral_door_bottom_purple"
+    },
+    "facing=east,half=lower,hinge=left,open=true": {
+      "model": "jroleitems:block/ancestral_door_bottom_hinge_purple",
+      "y": 90
+    },
+    "facing=east,half=lower,hinge=right,open=false": {
+      "model": "jroleitems:block/ancestral_door_bottom_hinge_purple"
+    },
+    "facing=east,half=lower,hinge=right,open=true": {
+      "model": "jroleitems:block/ancestral_door_bottom_purple",
+      "y": 270
+    },
+    "facing=east,half=upper,hinge=left,open=false": {
+      "model": "jroleitems:block/ancestral_door_top_purple"
+    },
+    "facing=east,half=upper,hinge=left,open=true": {
+      "model": "jroleitems:block/ancestral_door_top_hinge_purple",
+      "y": 90
+    },
+    "facing=east,half=upper,hinge=right,open=false": {
+      "model": "jroleitems:block/ancestral_door_top_hinge_purple"
+    },
+    "facing=east,half=upper,hinge=right,open=true": {
+      "model": "jroleitems:block/ancestral_door_top_purple",
+      "y": 270
+    },
+    "facing=north,half=lower,hinge=left,open=false": {
+      "model": "jroleitems:block/ancestral_door_bottom_purple",
+      "y": 270
+    },
+    "facing=north,half=lower,hinge=left,open=true": {
+      "model": "jroleitems:block/ancestral_door_bottom_hinge_purple"
+    },
+    "facing=north,half=lower,hinge=right,open=false": {
+      "model": "jroleitems:block/ancestral_door_bottom_hinge_purple",
+      "y": 270
+    },
+    "facing=north,half=lower,hinge=right,open=true": {
+      "model": "jroleitems:block/ancestral_door_bottom_purple",
+      "y": 180
+    },
+    "facing=north,half=upper,hinge=left,open=false": {
+      "model": "jroleitems:block/ancestral_door_top_purple",
+      "y": 270
+    },
+    "facing=north,half=upper,hinge=left,open=true": {
+      "model": "jroleitems:block/ancestral_door_top_hinge_purple"
+    },
+    "facing=north,half=upper,hinge=right,open=false": {
+      "model": "jroleitems:block/ancestral_door_top_hinge_purple",
+      "y": 270
+    },
+    "facing=north,half=upper,hinge=right,open=true": {
+      "model": "jroleitems:block/ancestral_door_top_purple",
+      "y": 180
+    },
+    "facing=south,half=lower,hinge=left,open=false": {
+      "model": "jroleitems:block/ancestral_door_bottom_purple",
+      "y": 90
+    },
+    "facing=south,half=lower,hinge=left,open=true": {
+      "model": "jroleitems:block/ancestral_door_bottom_hinge_purple",
+      "y": 180
+    },
+    "facing=south,half=lower,hinge=right,open=false": {
+      "model": "jroleitems:block/ancestral_door_bottom_hinge_purple",
+      "y": 90
+    },
+    "facing=south,half=lower,hinge=right,open=true": {
+      "model": "jroleitems:block/ancestral_door_bottom_purple"
+    },
+    "facing=south,half=upper,hinge=left,open=false": {
+      "model": "jroleitems:block/ancestral_door_top_purple",
+      "y": 90
+    },
+    "facing=south,half=upper,hinge=left,open=true": {
+      "model": "jroleitems:block/ancestral_door_top_hinge_purple",
+      "y": 180
+    },
+    "facing=south,half=upper,hinge=right,open=false": {
+      "model": "jroleitems:block/ancestral_door_top_hinge_purple",
+      "y": 90
+    },
+    "facing=south,half=upper,hinge=right,open=true": {
+      "model": "jroleitems:block/ancestral_door_top_purple"
+    },
+    "facing=west,half=lower,hinge=left,open=false": {
+      "model": "jroleitems:block/ancestral_door_bottom_purple",
+      "y": 180
+    },
+    "facing=west,half=lower,hinge=left,open=true": {
+      "model": "jroleitems:block/ancestral_door_bottom_hinge_purple",
+      "y": 270
+    },
+    "facing=west,half=lower,hinge=right,open=false": {
+      "model": "jroleitems:block/ancestral_door_bottom_hinge_purple",
+      "y": 180
+    },
+    "facing=west,half=lower,hinge=right,open=true": {
+      "model": "jroleitems:block/ancestral_door_bottom_purple",
+      "y": 90
+    },
+    "facing=west,half=upper,hinge=left,open=false": {
+      "model": "jroleitems:block/ancestral_door_top_purple",
+      "y": 180
+    },
+    "facing=west,half=upper,hinge=left,open=true": {
+      "model": "jroleitems:block/ancestral_door_top_hinge_purple",
+      "y": 270
+    },
+    "facing=west,half=upper,hinge=right,open=false": {
+      "model": "jroleitems:block/ancestral_door_top_hinge_purple",
+      "y": 180
+    },
+    "facing=west,half=upper,hinge=right,open=true": {
+      "model": "jroleitems:block/ancestral_door_top_purple",
+      "y": 90
+    }
+  }
+}

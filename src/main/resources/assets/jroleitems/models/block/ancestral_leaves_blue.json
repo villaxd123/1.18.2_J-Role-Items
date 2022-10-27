@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "jroleitems:block/ancestral_leaves_blue"
+  }
+}

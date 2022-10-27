@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "jroleitems:block/ancestral_planks_orange"
+  }
+}
