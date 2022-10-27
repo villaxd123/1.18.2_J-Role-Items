@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "jroleitems:block/ancestral_sapling_purple"
+  }
+}
