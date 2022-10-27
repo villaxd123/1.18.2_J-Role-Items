@@ -4,6 +4,9 @@ import net.jorgev96.jroleitems.JRoleItems;
 import net.jorgev96.jroleitems.item.ModCreativeModeTab;
 import net.jorgev96.jroleitems.item.ModItems;
 import net.jorgev96.jroleitems.block.custom.ModFlammableRotatedPillarBlock;
+import net.jorgev96.jroleitems.world.feature.tree.AncestralTreeBlueGrower;
+import net.jorgev96.jroleitems.world.feature.tree.AncestralTreeOrangeGrower;
+import net.jorgev96.jroleitems.world.feature.tree.AncestralTreePurpleGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
@@ -142,6 +145,28 @@ public class ModBlocks {
                 }
             }, ModCreativeModeTab.JORGE_ROLE_BLOCKS_TAB);
 
+    public static final RegistryObject<Block> ANCESTRAL_SAPLING_BLUE = registerBlock("ancestral_sapling_blue",
+            () -> new SaplingBlock(new AncestralTreeBlueGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_LEAVES_BLUE = registerBlock("ancestral_leaves_blue",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 60;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 30;
+                }
+            }, ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
     public static final RegistryObject<Block> ANCESTRAL_LOG_ORANGE = registerBlock("ancestral_log_orange",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)),
             ModCreativeModeTab.JORGE_ROLE_BLOCKS_TAB);
@@ -175,6 +200,28 @@ public class ModBlocks {
                     return 5;
                 }
             }, ModCreativeModeTab.JORGE_ROLE_BLOCKS_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_SAPLING_ORANGE = registerBlock("ancestral_sapling_orange",
+            () -> new SaplingBlock(new AncestralTreeOrangeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_LEAVES_ORANGE = registerBlock("ancestral_leaves_orange",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 60;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 30;
+                }
+            }, ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
 
     public static final RegistryObject<Block> ANCESTRAL_LOG_PURPLE = registerBlock("ancestral_log_purple",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)),
@@ -210,6 +257,28 @@ public class ModBlocks {
                 }
             }, ModCreativeModeTab.JORGE_ROLE_BLOCKS_TAB);
 
+    public static final RegistryObject<Block> ANCESTRAL_SAPLING_PURPLE = registerBlock("ancestral_sapling_purple",
+            () -> new SaplingBlock(new AncestralTreePurpleGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_LEAVES_PURPLE = registerBlock("ancestral_leaves_purple",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 60;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 30;
+                }
+            }, ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
     public static final RegistryObject<Block> ANCESTRAL_STAIRS_BLUE = registerBlock("ancestral_stairs_blue",
             () -> new StairBlock(() -> ModBlocks.ANCESTRAL_PLANKS_BLUE.get().defaultBlockState(),
                     BlockBehaviour.Properties.of(Material.WOOD).strength(3f).requiresCorrectToolForDrops()),
@@ -233,6 +302,26 @@ public class ModBlocks {
     public static final RegistryObject<Block> ANCESTRAL_WALL_BLUE = registerBlock("ancestral_wall_blue",
             () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_BUTTON_BLUE = registerBlock("ancestral_button_blue",
+            () -> new WoodButtonBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops().noCollission()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_PRESSURE_PLATE_BLUE = registerBlock("ancestral_pressure_plate_blue",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_DOOR_BLUE = registerBlock("ancestral_door_blue",
+            () -> new DoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops().noOcclusion()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_TRAPDOOR_BLUE = registerBlock("ancestral_trapdoor_blue",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops().noOcclusion()),
             ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
 
     public static final RegistryObject<Block> ANCESTRAL_STAIRS_ORANGE = registerBlock("ancestral_stairs_orange",
@@ -260,6 +349,26 @@ public class ModBlocks {
                     .strength(3f).requiresCorrectToolForDrops()),
             ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
 
+    public static final RegistryObject<Block> ANCESTRAL_BUTTON_ORANGE = registerBlock("ancestral_button_orange",
+            () -> new WoodButtonBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops().noCollission()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_PRESSURE_ORANGE = registerBlock("ancestral_pressure_plate_orange",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_DOOR_ORANGE = registerBlock("ancestral_door_orange",
+            () -> new DoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops().noOcclusion()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_TRAPDOOR_ORANGE = registerBlock("ancestral_trapdoor_orange",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops().noOcclusion()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
     public static final RegistryObject<Block> ANCESTRAL_STAIRS_PURPLE = registerBlock("ancestral_stairs_purple",
             () -> new StairBlock(() -> ModBlocks.ANCESTRAL_PLANKS_PURPLE.get().defaultBlockState(),
                     BlockBehaviour.Properties.of(Material.WOOD).strength(3f).requiresCorrectToolForDrops()),
@@ -283,6 +392,26 @@ public class ModBlocks {
     public static final RegistryObject<Block> ANCESTRAL_WALL_PURPLE = registerBlock("ancestral_wall_purple",
             () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_BUTTON_PURPLE = registerBlock("ancestral_button_purple",
+            () -> new WoodButtonBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops().noCollission()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_PRESSURE_PURPLE = registerBlock("ancestral_pressure_plate_purple",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_DOOR_PURPLE = registerBlock("ancestral_door_purple",
+            () -> new DoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops().noOcclusion()),
+            ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
+
+    public static final RegistryObject<Block> ANCESTRAL_TRAPDOOR_PURPLE = registerBlock("ancestral_trapdoor_purple",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3f).requiresCorrectToolForDrops().noOcclusion()),
             ModCreativeModeTab.JORGE_ROLE_DECORATIVE_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name,
